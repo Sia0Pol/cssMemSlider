@@ -1,4 +1,4 @@
-const wrapper1BlockNodes = document.querySelectorAll('.wrapper_1 .block1');
+/*const wrapper1BlockNodes = document.querySelectorAll('.wrapper_1 .block1');
 const wrapper2BlockNodes = document.querySelectorAll('.wrapper_2 .block');
 const wrapper2Node = document.querySelector('.wrapper_2');
 const wrapper3BlockNodes = document.querySelectorAll('.wrapper_3 .block3');
@@ -31,4 +31,4 @@ function eventClickHandler(event ,i, wrapper1BlockNodes, wrapper2BlockNodes, wra
 	wrapper3Node.style.setProperty('--currentIndex', i);
 
 	// console.log(wrapper2BlockNodes[i]);
-}
+}*/
