@@ -32,7 +32,6 @@ body {
 }
 
 .slides-images {
-	background-color: #ddd;
 	max-height: 80%;
 	max-width: 80%;
 	min-height: 80%;
@@ -157,6 +156,8 @@ body {
 			transform: translateY(0) scale(1);
 	}
 }
+
+
 
 
 
