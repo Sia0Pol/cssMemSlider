@@ -139,6 +139,15 @@ body {
 	animation: textantion 0.3s ease-in;
 }
 
+@keyframes textantion {
+	0% {
+			transform: translateY(-100%) scale(0.2);
+	}
+	100% {
+			transform: translateY(0) scale(1);
+	}
+}
+
 
 @keyframes changeImage {
 	0% {
@@ -149,14 +158,6 @@ body {
 	}
 }
 
-@keyframes textantion {
-	0% {
-			transform: translateY(-100%) scale(0.2);
-	}
-	100% {
-			transform: translateY(0) scale(1);
-	}
-}
 
 
 
