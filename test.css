@@ -111,6 +111,7 @@ body {
 }
 
 
+
 #slide1:checked~.slides-images>img:nth-of-type(1), 
 #slide2:checked~.slides-images>img:nth-of-type(2), 
 #slide3:checked~.slides-images>img:nth-of-type(3), 
@@ -156,6 +157,26 @@ body {
 			transform: translateY(0) scale(1);
 	}
 }
+
+@media (max-width:767px) {
+	.bottom-row {
+		flex-direction: column-reverse;
+	}
+	.control {
+		max-width: 100%;
+    min-width: 100%;
+    justify-content: center;
+	}
+
+	.content-text {
+		max-width: 100%;
+    min-width: 100%;
+    justify-content: center;
+	}
+}
+
+
+
 
 
 
