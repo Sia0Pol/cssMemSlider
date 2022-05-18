@@ -94,6 +94,13 @@ body {
 .control label {
 	cursor: pointer;
 	height: fit-content;
+	padding: 0.5rem;
+}
+
+
+.control label span{
+	cursor: pointer;
+	height: fit-content;
 	padding: 0.3rem;
 	margin-right: 0.3rem;
 	display: block;
@@ -104,7 +111,7 @@ body {
 	border-radius: 50%;
 }
 
-.control label:hover {
+.control label:hover span{
 	background-color: rgb(211, 163, 229);
 	border: 2px solid rgb(211, 163, 229);
 	transition: 0.2s ease-in;
@@ -122,11 +129,11 @@ body {
 }
 
 
-#slide1:checked~.bottom-row> .control>label:nth-of-type(1), 
-#slide2:checked~.bottom-row> .control>label:nth-of-type(2), 
-#slide3:checked~.bottom-row> .control>label:nth-of-type(3), 
-#slide4:checked~.bottom-row> .control>label:nth-of-type(4),
-#slide5:checked~.bottom-row> .control>label:nth-of-type(5) {
+#slide1:checked~.bottom-row> .control>label:nth-of-type(1)>span, 
+#slide2:checked~.bottom-row> .control>label:nth-of-type(2)>span, 
+#slide3:checked~.bottom-row> .control>label:nth-of-type(3)>span, 
+#slide4:checked~.bottom-row> .control>label:nth-of-type(4)>span,
+#slide5:checked~.bottom-row> .control>label:nth-of-type(5)>span {
   background: transparent;
 }
 
@@ -169,7 +176,7 @@ body {
 	}
 
 	.content-text {
-		max-width: 100%;
+				max-width: 100%;
     min-width: 100%;
     justify-content: center;
 	}
